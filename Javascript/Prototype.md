@@ -7,11 +7,14 @@
 
 즉, ``Javascript`` 에서의 ``Prototype`` 은 자신을 만들어낸 **객체의 원형** 을 뜻한다.<br/>
 _애초에 Prototype이라는 영단어의 뜻이 '원형'이기도 하다._
+<br/>
+<br/>
 
 **Prototype의 의미는 2가지로 구분된다.**
 1. Prototype Link : 객체가 생성될 때, ``생성된 객체의 부모`` 가 되는 객체의 원형
 2. Prototype Object : 생성된 객체와 ``부모 객체와의 참조`` 를 이어주는 링크
-
+<br/>
+<br/>
 
 **Prototype Chain**
 
