@@ -1,0 +1,27 @@
+## Promise와 Callback의 차이
+#### Promise와 Callback 모두 자바스크립트 비동기 처리를 위해, 사용되는 패턴이다.
+<br/>
+
+**Callback 의 단점** : 함수의 처리 순서를 보장하기 위해, 함수가 중첩되는 경우에 ``콜백지옥``이 발생되며 ``에러 처리``가 힘든 단점이 있다.
+
+> 이를 보완하기 위해 나온 것이 **Promise** 이다.
+<br/>
+
+**promise 생성자 함수** 를 통해 인스턴스화 하며
+```
+// Promise 객체의 생성
+const promise = new Promise((resolve, reject) => {
+// 비동기 작업을 수행한다.
+
+if ( /* 비동기 작업 수행 성공 */) {
+	resolve('result');
+} else { /* 비동기 작업 수행 실패 */
+    reject('failure reason');
+}
+});
+```
+
+1) 비동기 처리에 ``성공`` 하면 ``resolve 메소드`` 를 호출해서 **결과**를 전달한다.<br/>
+2) 비동기 처리에 ``실패`` 하면 ``resolve 메소드`` 를 호출해서 **에러 메시지**를 전달한다.
+또한, ``then``, ``catch`` 는 ``Promise``를 반환하기 때문에
+``then``을 사용하여 **콜백지옥을 해결할 수 있다.**
