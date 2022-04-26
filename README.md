@@ -14,3 +14,6 @@
 ### 🟦 React
 - [1️⃣ **React를 사용하는 이유**](/React/React를_사용하는_이유.md)
 - [2️⃣ **Props와 State의 차이**](/React/Props와_State의_차이.md)
+
+### ⬜️ Frontend
+- [1️⃣ **브라우저의 작동원리**](/Frontend/브라우저의_작동원리.md);
