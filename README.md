@@ -16,4 +16,4 @@
 - [2️⃣ **Props와 State의 차이**](/React/Props와_State의_차이.md)
 
 ### ⬜️ Frontend
-- [1️⃣ **브라우저의 작동원리**](/Frontend/브라우저의_작동원리.md);
+- [1️⃣ **브라우저의 작동원리**](/Frontend/브라우저의_작동원리.md)
